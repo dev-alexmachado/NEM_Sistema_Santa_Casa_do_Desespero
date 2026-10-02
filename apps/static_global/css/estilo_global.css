@@ -8,3 +8,8 @@
 .img-logo {
     mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 75%);
 }
+
+.slogan {
+    font-family: Faith Collapsing, Helvetica, sans-serif;
+    margin-top: -40px;
+}

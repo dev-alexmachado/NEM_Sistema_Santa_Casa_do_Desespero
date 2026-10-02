@@ -6,12 +6,15 @@
 {% block content %}
     <div class="container d-flex vh-100 align-items-center justify-content-center">
         <div class="row">
-            <figure class="d-flex justify-content-center mb-3">
+            <figure class="d-flex justify-content-center mt-5">
                 <img src="{% static 'img/logo.png' %}" alt="Logo" width="200" class="img-logo img-fluid">
             </figure>
             <h1 class="nome-hospital d-flex justify-content-center mb-5" align="center">
                 Santa Casa<br>do Desespero
             </h1>
+            <h2 class="slogan d-flex justify-content-center mb-3" align="center">
+                † Implore socorro, receba desprezo †
+            </h2>
             <div class="d-flex justify-content-center col-12">
                 <form action="" method="POST">
                     {% csrf_token %}
